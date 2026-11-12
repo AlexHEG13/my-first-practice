@@ -31,3 +31,4 @@ if __name__ == "__main__":
     array2 = ['p', 'r', 't', 'b', 'w']
     for i, arr in enumerate((array1, array2), start=1):
         check_array(i, *arr)
+
